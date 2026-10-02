@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/login_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(const SpeakProApp());
@@ -15,17 +15,19 @@ class SpeakProApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF1D4ED8),
-          brightness: Brightness.dark,
-        ),
+        brightness: Brightness.dark,
         scaffoldBackgroundColor: const Color(0xFF0B1220),
         appBarTheme: const AppBarTheme(
           backgroundColor: Color(0xFF0B1220),
           foregroundColor: Colors.white,
         ),
+        cardColor: const Color(0xFF111B2D),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF3B82F6),
+          brightness: Brightness.dark,
+        ),
       ),
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }

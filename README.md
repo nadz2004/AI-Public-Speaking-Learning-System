@@ -1,27 +1,31 @@
 # SpeakPro AI
 
-AI-powered mobile learning system for improving public speaking skills among HUMSS students.
+AI-powered public speaking learning app for selected HUMSS students.
 
-## Features
-- Student login screen
-- Dashboard screen
-- Learning modules UI
-- Speech recording flow-ready structure
-- Mobile-first design using Flutter and Material 3
+## Screens included
+- Splash screen
+- Login screen
+- Register screen
+- Landing page
+- Feature selection
+- Public speaking flow
+- Vocabulary flow
+- Pronunciation flow
+- Progress tracking
 
-## Run the app
-1. Install Flutter SDK.
-2. Open the project in Android Studio.
-3. Run:
-
+## Run project
 ```bash
 flutter pub get
 flutter run
 ```
 
-## Project structure
-- `lib/main.dart` - app entry point
-- `lib/screens/login_screen.dart` - login screen and dashboard placeholder
+## Features
+- Student-friendly UI
+- Practice selection
+- AI prompt flow
+- Recording pages
+- Feedback pages
+- Progress dashboard
 
 ## Notes
-This is the starting UI for your login page and dashboard. You can later connect Firebase Authentication and speech analysis features.
+This starter version mirrors your flow diagrams and is ready for Firebase and AI integration later.
